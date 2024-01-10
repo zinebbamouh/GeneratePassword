@@ -1,0 +1,80 @@
+*{
+    background-color: #ebf6f5;
+    font-family: "Lucida Console", Helvetica, Arial;
+}
+
+#title-div {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+#input-div1 {
+    background-color: #f9fbfb;
+    width: 300px;
+    height: 20px;
+    margin: auto;
+    border: 1.5px solid;
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#input-div2 {
+    background-color: #f9fbfb;
+    width: 300px;
+    height: 20px;
+    margin: auto;
+    border: 1.5px solid;
+    border-bottom: none;
+}
+
+#input-div3 {
+    background-color: #f9fbfb;
+    width: 300px;
+    height: 20px;
+    margin: auto;
+    border: 1.5px solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+#button-div {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+#output-div {
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    line-height: 35px;
+    margin: auto;
+}
+
+#button-generate {
+    border-radius: 5px;
+    background-color: #f9e3e2;
+    border: 1.5px solid;
+    width: 130px;
+    height: 30px;
+}
+
+#copy-id {
+    border-radius: 5px;
+    background-color: #f9e3e2;
+    border: 1.5px solid;
+    width: 130px;
+    height: 30px;
+}
+
+label {
+    background-color: #f9fbfb;
+}
+
+input[type="checkbox"] {
+    accent-color: #f9e3e2;
+  }

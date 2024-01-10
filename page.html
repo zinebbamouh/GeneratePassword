@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <title>Password Generator</title>
+    </head>
+    <body>
+       <div id="title-div">
+        <h3>Password Generator</h1>
+       </div> 
+    </br>
+       
+        <form id="form"> 
+            <div id="form-div"> 
+                <div id="input-div1">
+                    <input id="button-lc" type="checkbox" name="choice" value="lowercase">
+                    <label for="button-lc">LowerCase</label>
+                </div>
+            
+            
+                <div id="input-div2">
+                    <input id="button-uc" type="checkbox" name="choice" value="uppercase">
+                    <label for="button-uc">UpperCase</label>
+                </div>
+                <div id="input-div2">
+                    <input id="button-num" type="checkbox" name="choice" value="number">
+                    <label for="button-num">Numbers</label>
+                </div>
+                <div id="input-div3">
+                    <input id="button-spec" type="checkbox" name="choice" value="special-char">
+                    <label for="button-spec">Special Characters</label>
+                </div>
+            </div>    
+        </br></br></br>
+            <div id="button-div">
+            <input id="button-generate" type="submit" value="Generate">
+            </div>
+        </form>
+       
+        </br></br>
+       <div id="output-div">
+        <p>The password is:</p>
+        <h3 id="output-id">THE PASSWORD</h3>
+        </div>
+         </br>
+        <div id="button-div">
+            <button id="copy-id" type="button" onclick="copyPassword()">Copy!</button>
+        </div>
+       
+
+       <script src="script.js"></script>
+    </body>
+</html>
